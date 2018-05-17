@@ -1,4 +1,4 @@
-id_custumer;num_compte;type_compte;date_tansaction;montant_transaction
+id_costumer;num_compte;type_compte;date_transaction;montant_transaction
 154782552N;99999999;courant;2017-02-13;1500
 154782552N;88888888;livret;2016-07-30;2000
 154782552N;99999999;courant;2018-01-27;3780
