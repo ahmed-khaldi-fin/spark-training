@@ -1,11 +1,17 @@
 package first.example;
 
-public class Compte {
+import java.io.Serializable;
+
+public class Compte  implements Serializable {
     private String idCostumer;
     private Long numCompte;
     private String typeCompte;
     private String dateTransaction;
     private Long montantTransaction;
+
+
+    public Compte() {// empty
+         }
 
     public Compte(String idCostumer, Long numCompte, String typeCompte, String dateTransaction, Long montantTransaction) {
         this.idCostumer = idCostumer;
